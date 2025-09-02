@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6ba9f2f9ab87cf0e79e78631aba1890a7cb315da",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-09-02T11:59:11.000Z",
       "message": "feat: devuelve Game for Player 2 si el jugador 2 gana",
-      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+      "url": "https://github.com/Vanessa745/TennisScore/commit/6ba9f2f9ab87cf0e79e78631aba1890a7cb315da"
     },
     "stats": {
       "total": 16,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-09-02T13:01:27.000Z",
+      "message": "feat: devuelve Deuce si los dos jugadores empatan en 3-3 o superior",
+      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

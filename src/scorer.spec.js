@@ -68,4 +68,17 @@ describe("Scorer", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("Game for Player 2")
     })
+
+    it("deberia devolver Deuce si los dos jugadores empatan en 3-3 o superior", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Deuce")
+    })
 })
