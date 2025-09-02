@@ -1,13 +1,25 @@
-function showScore(a, b) {
-    if(a === 0 && b === 0) {
-        return "Love-Love";
-    } 
-    if(a === 1 && b === 0) {
-        return "15-Love";
-    }  
-    if(a === 2 && b === 0) {
-        return "30-Love";
+class TennisScorer {
+    constructor() {
+        this.player1Points = 0;
+        this.player2Points = 0;
+    }
+    showScore() {
+        if(this.player1Points === 0 && this.player2Points === 0) {
+            return "Love-Love";
+        }
+        if(this.player1Points === 1 && this.player2Points === 0) {
+            return "15-Love";
+        }
+        if(this.player1Points === 2 && this.player2Points === 0) {
+            return "30-Love";
+        }
+    }
+    player1Scores() {
+        this.player1Points++;
+    }
+    player2Scores() {
+        this.player2Points++;
     }
 }
 
-export default showScore
+export default TennisScorer;
