@@ -39,4 +39,12 @@ describe("Scorer", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("Love-30")
     })
+
+    it("deberia devolver Love-40 si el marcador es 0-3", () => {
+        const scorer = new TennisScorer();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Love-40")
+    })
 })
