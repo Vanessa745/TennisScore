@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c2ad3f4e7e76b0eb6566f625694307ad2c54d1b2",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-09-02T11:54:10.000Z",
       "message": "feat: devuelve Game for Player 1 si el jugador 1 gana",
-      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+      "url": "https://github.com/Vanessa745/TennisScore/commit/c2ad3f4e7e76b0eb6566f625694307ad2c54d1b2"
     },
     "stats": {
       "total": 15,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-09-02T11:59:11.000Z",
+      "message": "feat: devuelve Game for Player 2 si el jugador 2 gana",
+      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
