@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "43cb909c7820ed679b24d2daf46a960dd52391bc",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-09-02T03:57:48.000Z",
       "message": "feat: devuelve Love-Love si el marcador es 0-0",
-      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+      "url": "https://github.com/Vanessa745/TennisScore/commit/43cb909c7820ed679b24d2daf46a960dd52391bc"
     },
     "stats": {
       "total": 14,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-09-02T04:02:58.000Z",
+      "message": "feat: devuelve 15-Love si el marcador es 1-0",
+      "url": "https://github.com/Vanessa745/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
