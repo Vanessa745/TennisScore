@@ -8,4 +8,8 @@ describe("Scorer", () => {
     it("deberia devolver 15-Love si el marcador es 1-0", () => {
         expect(showScore(1, 0)).toEqual("15-Love")
     })
+
+    it("deberia devolver 30-Love si el marcador es 2-0", () => {
+        expect(showScore(2, 0)).toEqual("30-Love")
+    })
 })
